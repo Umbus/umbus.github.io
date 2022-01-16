@@ -80,7 +80,7 @@ a:visited{
 	height: 100%;
 	width: 100%;
 	background-color: black;
-	opacity: 0.4;
+	opacity: 0.2;
 	z-index: -1;
 }
 #home .home {
@@ -92,7 +92,7 @@ a:visited{
 #home h1 {
 	display: block;
 	width: fit-content;
-	font-size: 10vw;
+	font-size: 9vw;
 	position: relative;
 	top: -25vh;
 	left: 4vh;
@@ -157,10 +157,10 @@ a:visited{
 }
 
 #history img {
-	max-width: 95%;*/
+	max-width: 95%;
 	height: auto;
 	border-radius: 4vh;
-	padding: 0vh 2vw;*/
+	padding: 0vh 2vw;
 }
 
 #history .history-item h2{
@@ -193,7 +193,7 @@ a:visited{
 	color: black;
 	font-size: 4.4vw;
 	text-align: center;
-	padding: 1vh 0vw 3vh;
+	padding: 1vh 0vw 1vh;
 
 }
 
