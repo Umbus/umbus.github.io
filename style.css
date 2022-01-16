@@ -4,8 +4,6 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "Monospace";
-	/*font-family: "Garamond";*/
-	/*font-family: "Lucida Console";*/
 }
 html {
 	scroll-behavior: smooth;
@@ -21,6 +19,10 @@ a {
 }
 
 a:visited{
+	color: crimson;
+}
+
+span {
 	color: crimson;
 }
 
@@ -197,9 +199,9 @@ a:visited{
 
 }
 
-#history .history-item span {
-	color: crimson;
-}
+/*#history .history-item span {*/
+	/*color: crimson;*/
+/*}*/
 
 /* Footer */
 #footer {
@@ -221,6 +223,64 @@ a:visited{
 	color: white;
 	font-size: 5vw;
 	/*margin-bottom: 3vh;*/
+}
+
+/*body {*/
+/*background: #59abe3;*/
+/*margin: 0;*/
+/*}*/
+.form {
+	flex-direction: column;
+	text-align: center;
+	align: center;
+	padding: 0vh 3vw 0vw;
+	border-radius: 8px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.form label {
+	padding: 1vh 3vw 1vh;
+	font-size: 5vw;
+	color: black;
+}
+
+.form textarea {
+	font-size: 4.4vw;
+	max-width: 100%;
+	border-radius: 5px;
+	width: 100%;
+	padding: 1vh 3vw 1vh;
+	box-sizing: border-box;
+	background: none;
+	outline: none;
+	resize: none;
+	border: 0;
+	transition: all 0.3s;
+	border-bottom: 2px solid #bebed2;
+}
+
+.form textarea:focus {
+	/*border-bottom: 2px solid #78788c;*/
+	border-bottom: 2px solid black;
+}
+
+.form button {
+	/*float: right;*/
+	padding: 1vh 2vw;
+	margin: 1vh 0 0;
+	border: 2px solid black;
+	border-radius: 6px;
+	background: 0;
+	color: black;
+	font-size: 4.4vw;
+	/*color: #5a5a6e;*/
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.form button:hover {
+	background: #78788c;
+	color: #fff;
 }
 
 /* Keyframes */
