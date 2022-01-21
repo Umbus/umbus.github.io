@@ -18,6 +18,10 @@ a {
 	color: crimson;
 }
 
+small {
+font-style: italic;
+}
+
 a:visited{
 	color: crimson;
 }
@@ -162,7 +166,7 @@ span {
 	max-width: 95%;
 	height: auto;
 	border-radius: 4vh;
-	padding: 0vh 2vw;
+	padding: 0vh 2vw 0.5vh;
 }
 
 #history .history-item h2{
@@ -188,7 +192,7 @@ span {
 	font-size: 5vw;
 	font-weight: bold;
 	text-align: center;
-	padding: 1vh 0vw 0vh;
+	padding: 0vh 0vw 0vh;
 }
 
 #history .history-item p{
@@ -234,7 +238,7 @@ span {
 	text-align: center;
 	align: center;
 	padding: 0vh 3vw 0vw;
-	border-radius: 8px;
+	border-radius: 3vw;
 	box-sizing: border-box;
 	position: relative;
 }
@@ -248,7 +252,7 @@ span {
 .form textarea {
 	font-size: 4.4vw;
 	max-width: 100%;
-	border-radius: 5px;
+	border-radius: 2vw;
 	width: 100%;
 	padding: 1vh 3vw 1vh;
 	box-sizing: border-box;
@@ -257,20 +261,20 @@ span {
 	resize: none;
 	border: 0;
 	transition: all 0.3s;
-	border-bottom: 2px solid #bebed2;
+	border-bottom: 1vw solid #bebed2;
 }
 
 .form textarea:focus {
 	/*border-bottom: 2px solid #78788c;*/
-	border-bottom: 2px solid black;
+	border-bottom: 1vw solid black;
 }
 
 .form button {
 	/*float: right;*/
-	padding: 1vh 2vw;
+	padding: 0.5vh 2vw;
 	margin: 1vh 0 2vh;
-	border: 2px solid black;
-	border-radius: 6px;
+	border: 0.5vw solid black;
+	border-radius: 2vw;
 	background: 0;
 	color: black;
 	font-size: 4.4vw;
