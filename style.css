@@ -40,13 +40,14 @@ span {
 }
 
 .brand h1 {
-	font-size: 6vw;
+	font-size: 7vw;
 	text-transform: uppercase;
 	color: white;
 }
 .brand h1 span {
 	color: crimson;
 }
+
 
 /* Header section */
 #header {
@@ -191,7 +192,7 @@ span {
 #history .history-item h4{
 	color: black;
 	font-size: 5vw;
-	font-weight: bold;
+	font-weight: normal;
 	text-align: center;
 	padding: 0vh 0vw 0vh;
 }
@@ -219,21 +220,38 @@ span {
 	height: auto;
 }
 #footer .footer {
-	min-height: 8vh;
-	flex-direction: column;
-	padding-top: 2vh;
-	padding-bottom: 2vh;
+	min-height: 7vh;
+	/*flex-direction: column;*/
+	padding-top: 1vh;
+	padding-bottom: 1vh;
 }
+
+#footer .footer-left div{
+	float: left;
+}
+
+#footer h1 {
+	font-size: 8vw;
+	text-transform: uppercase;
+	text-align: left;
+	color: white;
+}
+
 #footer h2 {
 	color: white;
-	font-size: 5vw;
+	font-size: 6vw;
+	text-align: left;
 	/*margin-bottom: 3vh;*/
 }
 
-/*body {*/
-/*background: #59abe3;*/
-/*margin: 0;*/
-/*}*/
+#footer img {
+	display: inline-block;
+	float: right;
+	width: 75px;
+	height: 75px;
+	margin-left: 7vw
+}
+
 .form {
 	flex-direction: column;
 	text-align: center;
@@ -246,6 +264,7 @@ span {
 
 .form label {
 	padding: 1vh 3vw 1vh;
+	font-weight: bold;
 	font-size: 5vw;
 	color: black;
 }
@@ -273,7 +292,7 @@ span {
 .form button {
 	/*float: right;*/
 	padding: 0.5vh 2vw;
-	margin: 1vh 0 2vh;
+	margin: 2vh 0 2vh;
 	border: 0.5vw solid black;
 	border-radius: 2vw;
 	background: 0;
